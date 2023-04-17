@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +28,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.sidemenu {
+  width: 240px;
+  border: 1px solid white;
+}
+
+.chatbox{
+  flex:1;
+  border:1px solid white;
 }
 
 @keyframes App-logo-spin {
